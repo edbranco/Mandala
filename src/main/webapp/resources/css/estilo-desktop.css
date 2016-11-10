@@ -1,0 +1,224 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/10/2016, 23:41:19
+    Author     : Eder Rodrigues
+*/
+
+/*
+azul - #269abc
+
+*/
+@font-face{
+    font-family: district-bold-italic;
+    src: url('../../resources/font/ufonts.com_district-bolditalicalt.woff');
+}
+body{
+    font-family: tahoma;   
+    font-size: 16px;
+    font-weight: bold;
+    font-style: inherit;
+    background:white;
+
+
+
+}
+.navbar,navbar-fixed-top{
+    min-height: 70px;
+}
+.navbar-collapse > nav > a:hover{
+    background: none;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    border:none;
+    border-style:none;
+    background: #269abc;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+section{
+    position: relative;
+    padding: 50px;
+
+}
+#home{
+    /* background-image: url("../../resources/imgs/home2.jpg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;*/
+
+
+}
+.carousel-section{
+    margin-top: 65px;
+}
+
+
+#quemSomos{
+    background: #398439;
+    height:700px;
+}
+p.about{
+    font-family: tahoma;
+    font-style: inherit;
+    font-weight: bolder;
+    color:whitesmoke;
+}
+.text-menu-down{
+    text-decoration: none;
+    color: black;
+}
+.text-menu-down:hover{
+    text-decoration: none;
+    color: tomato;
+}
+#cv{
+    background:#262626;
+    height:700px;
+}
+.cv{
+    height:200px;
+    width:200px;
+    transition: 0.2s;
+    border-radius: 100px;
+}
+.cv:hover{
+    height:210px;
+    width:210px;
+}
+#servicos{
+    background: #269abc;
+    height:700px;
+}
+#contato{
+    /*background: #FFF5EE;*/
+    background: white;
+    height:600px;
+}
+.email{color:#cc0000;}
+.contact{
+    color:black;
+}
+strong{
+    color:#cc0000;
+}
+address{
+    color:black;
+}
+.phone{
+    color:#cc0000;
+}
+.glyphicon-phone-alt{
+    color:black;
+    font-size: 20px; padding-right: 5px;
+}
+#logoFooter{
+    height:150px;
+    width:300px;
+}
+#rodape{
+
+
+}
+#logo{
+    margin-top: -15px;
+    height:65px;
+    width:150px;
+}
+.navbar .nav>li{
+    font-family: district-bold-italic, tahoma;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.li-no-decoration{
+    list-style-type:none;
+}
+h1{
+    font-family: tahoma;
+    color: black;
+    font-weight: bold;
+    font-style: inherit;
+}
+h2{
+    font-family: tahoma;
+    color: #2B2E37;
+    font-weight: bold;
+    font-style: inherit;
+}
+p{
+    font-family: tahoma;
+    color: white;
+    font-weight: bold;
+    font-style: inherit;
+}
+label{
+    font-family: tahoma;
+    color: black;
+    font-weight: bolder;
+    font-style: inherit;
+}
+#logoFooter{
+
+}
+.dev{
+    font-size: 10px;
+    color: #808080;
+}
+@media screen and (min-width:0) and (max-width: 500px){
+    #menuFooter{
+        display: none;
+    }   
+}
+@media screen and (min-width:0) and (max-width: 995px){
+    #rodape{
+        display: none;
+    }   
+}
+@media screen and (min-width:990px) and (max-width: 1100px){
+    #logoFooter{
+        height: 150px;
+        width: 300px;
+    }   
+}
+
+@media screen and (min-height: 950px){
+    .carousel-img{
+        height: 800px;
+        width:100%;
+    }
+    #home{
+        height:800px;   
+    }
+    #blank{
+        background: #fff;
+        height:155px;
+    }
+    .motivation{
+        margin-top: 20px; font-family: district-bold-italic; color:black;
+    }
+}
+@media screen and (max-height: 949px){
+    .carousel-img{
+        height: 480px;
+        width:100%;
+    }
+    #home{
+        height:480px;   
+    }
+    #blank{
+        background: #fff;
+        height:120px;
+    }
+    .motivation{
+        margin-top: 0px; font-family: district-bold-italic; color:black;
+    }
+}

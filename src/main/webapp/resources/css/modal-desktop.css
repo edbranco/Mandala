@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/10/2016, 23:30:13
+    Author     : Eder Rodrigues
+*/
+
+.list{
+    color:black;
+    text-align: center;
+}
+#liEmail{
+    margin-left:-25px; 
+
+}
+.glyphicon-remove{
+    font-size: 20px;
+}
+.mini-logo{
+    height:50px;
+    width:100px;
+}
+.datas{
+    color: #00cc00;
+}

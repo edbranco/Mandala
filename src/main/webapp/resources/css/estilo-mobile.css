@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/10/2016, 18:10:34
+    Author     : Eder Rodrigues
+*/
+@font-face{
+    font-family: district-bold-italic;
+    src: url('../../resources/font/ufonts.com_district-bolditalicalt.woff');
+}
+body{
+    font-family: tahoma;   
+    font-size: 16px;
+    font-weight: bold;
+    font-style: inherit;
+
+
+
+}
+.navbar,navbar-fixed-top{
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+section{
+    position: relative;
+    padding: 50px;
+
+}
+#home{
+    background-image: url("../../resources/imgs/home2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:400px;
+
+}
+.carousel-img{
+    height: 400px;
+    width:100%;
+}
+.carousel-section{
+    margin-top: 5px;
+}
+#blank{
+    background: #fff;
+    height:250px;
+}
+.motivation{
+    font-family: district-bold-italic; color:black;
+}
+#quemSomos{
+    background: #398439;
+    height:1200px;
+}
+#cv{
+    background:#262626;
+    height:800px;
+}
+.cv:hover{
+    height:210px;
+    width:210px;
+    
+}
+.cv{
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+#servicos{
+    background: #269abc;
+    height:700px;
+}
+#contato{
+    /*background: #FFF5EE;*/
+    background: white;
+    height:600px;
+}
+.email{color:#cc0000;}
+.contact{
+    color:black;
+}
+strong{
+    color:#cc0000;
+}
+address{
+    color:black;
+}
+.phone{
+    color:#cc0000;
+}
+.glyphicon-phone-alt{
+    color:black;
+    font-size: 20px; padding-right: 5px;
+}
+#rodape{
+
+
+}
+#logo{
+    margin-top: -15px;
+    height:48px;
+    width:100px;
+}
+.navbar .nav>li{
+    font-family: district-bold-italic;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.li-no-decoration{
+    list-style-type:none;
+}
+h1{
+    font-family: tahoma;
+    color: black;
+    font-weight: bold;
+    font-style: inherit;
+}
+h2{
+    font-family: tahoma;
+    color: #2B2E37;
+    font-weight: bold;
+    font-style: inherit;
+}
+p{
+    font-family: tahoma;
+    color: white;
+    font-weight: bold;
+    font-style: inherit;
+}
+label{
+    font-family: tahoma;
+    color: black;
+    font-weight: bolder;
+    font-style: inherit;
+}
+
+@media screen and (min-width:0) and (max-width: 699px){
+    #menuFooter,#rodape{
+        display: none;
+    }  
+    #logoFooter{
+        height:100px;
+        width:200px;
+    }
+}
+@media screen and (min-width:0) and (max-width: 699px){
+    #rodape{
+        display: none;
+    }   
+}
