@@ -57,8 +57,8 @@
         -->    
 
  
-        <div id="home" class="carousel-section" style="background: black;"ng-controller="carrouselController">
-            <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+        <div id="home" ng-controller="carrouselController">
+            <div class="carousel-section" uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
                 <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
                     <img class="carousel-img" ng-src="{{slide.img}}"/>
                     <div class="carousel-caption">
@@ -133,7 +133,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img class="" id="logoFooter" src="resources/imgs/logo.png">    
+                    <img class="" id="logoFooter" src="resources/imgs/mandalaNewPng.png">    
                 </div>
             </article>
         </section>
@@ -141,13 +141,10 @@
         <footer id="rodape">
 
             <article>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <p class="pull-left dev">Mandala Assessoria Inc © Copyright 2016</p>
                 </div>
                 <div class="col-md-6">
-                    <p class="pull-left dev"><img src="resources/imgs/icon-facebook-big.png" height="50px" width="50px"></p>
-                </div>
-                <div class="col-md-3">
                     <p class="pull-right dev">By: Eder Rodrigues</p>
                 </div>
             </article>

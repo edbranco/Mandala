@@ -54,11 +54,11 @@ section{
     /* background-image: url("../../resources/imgs/home2.jpg");
      background-size: 100% 100%;
      background-repeat: no-repeat;*/
-
+    background: black;
 
 }
 .carousel-section{
-    margin-top: 65px;
+   
 }
 
 
@@ -121,7 +121,7 @@ address{
     font-size: 20px; padding-right: 5px;
 }
 #logoFooter{
-    height:150px;
+    height:170px;
     width:300px;
 }
 #rodape{
@@ -191,12 +191,15 @@ label{
 }
 
 @media screen and (min-height: 950px){
+    .carousel-section{
+        padding-top: 65px;
+    }
     .carousel-img{
         height: 800px;
         width:100%;
     }
     #home{
-        height:800px;   
+        height:865px;   
     }
     #blank{
         background: #fff;
